@@ -3,7 +3,7 @@ export default function SignUpPage() {
     <div className='h-full flex flex-col items-center'>
       <h2>Create an account</h2>
 
-      <div className="">
+      <div className=''>
         <form action='' className='min-w-80 flex flex-col gap-3'>
           {/* INPUT NAME */}
           <div className='flex flex-col'>
@@ -31,19 +31,22 @@ export default function SignUpPage() {
             />
           </div>
 
-           {/* TEXT TERMS OF SERVICE */}
-          <div className="opacity-50">
-            <p className="text-xs">
-            By continuing, you agree to our <a href='#' className="text-green-1 font-bold">terms of service</a>
+          {/* TEXT TERMS OF SERVICE */}
+          <div className='opacity-50'>
+            <p className='text-xs'>
+              By continuing, you agree to our{' '}
+              <a href='#' className='text-green-1 font-bold'>
+                terms of service
+              </a>
             </p>
           </div>
 
-           {/* SIGN UP BUTTON */}
+          {/* SIGN UP BUTTON */}
           <div className='flex flex-col items-center'>
             <button className='w-full btn btn-primary'>Sign up</button>
           </div>
 
-          <div className="flex justify-center">
+          <div className='flex justify-center'>
             <p>or sign up with</p>
           </div>
 

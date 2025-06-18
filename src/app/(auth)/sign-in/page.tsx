@@ -1,5 +1,5 @@
-import { Google } from "@mui/icons-material";
-import { Eye } from "lucide-react";
+import { Google } from '@mui/icons-material';
+import { Eye } from 'lucide-react';
 
 export default function SignInPage() {
   return (
@@ -20,17 +20,21 @@ export default function SignInPage() {
           <div className='flex flex-col'>
             <div className='flex justify-between items-center'>
               <label htmlFor='password'>Password</label>
-              <a href="#" className="anchor anchor-primary text-xs">Forgot Password?</a>
+              <a
+                href='/sign-in/forgot-password'
+                className='anchor anchor-primary text-xs'
+              >
+                Forgot Password?
+              </a>
             </div>
-            <div className="flex justify-between items-center border rounded-lg">
+            <div className='flex justify-between items-center border rounded-lg'>
               <input
                 type='password'
                 name='password'
                 placeholder='Enter your password here'
-                className="border-none"
-              >  
-              </input>
-              <div className="px-4 text-black/50 hover:text-black/80 cursor-pointer transition-colors duration-200">
+                className='border-none'
+              ></input>
+              <div className='px-4 text-black/50 hover:text-black/80 cursor-pointer transition-colors duration-200'>
                 <Eye />
               </div>
             </div>
@@ -58,7 +62,8 @@ export default function SignInPage() {
             <button className='w-full flex gap-2 btn btn-primary bg-[#e4e7eb] text-black font-normal justify-center'>
               <span className='font-extrabold text-black/30 flex items-center'>
                 <Google />
-                </span>Continue with Google
+              </span>
+              Continue with Google
             </button>
           </div>
 
