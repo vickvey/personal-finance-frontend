@@ -1,6 +1,6 @@
 export default function SignUpPage() {
   return (
-    <div className='h-full flex flex-col items-center'>
+    <div className='flex flex-col items-center'>
       <h2>Create an account</h2>
 
       <div className=''>
@@ -57,7 +57,7 @@ export default function SignUpPage() {
           </div>
 
           <div className='flex gap-2'>
-            Already have an account? <a href='#'>Sign in here</a>
+            Already have an account? <a href='/sign-in'>Sign in here</a>
           </div>
         </form>
       </div>

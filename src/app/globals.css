@@ -63,9 +63,10 @@
 }
 
 @layer components {
+
   /* Buttons */
   .btn {
-    @apply px-5 py-3 font-medium  rounded-lg cursor-pointer;
+    @apply px-5 py-3 font-medium text-center rounded-lg cursor-pointer;
   }
 
   .btn-primary {

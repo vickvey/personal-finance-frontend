@@ -3,7 +3,7 @@ import { Eye } from 'lucide-react';
 
 export default function SignInPage() {
   return (
-    <div className='h-full flex flex-col items-center'>
+    <div className='flex flex-col items-center'>
       <div className='min-w-80'>
         <form action='' className='flex flex-col gap-3'>
           {/* INPUT EMAIL ADDRESS */}
@@ -68,7 +68,9 @@ export default function SignInPage() {
           </div>
 
           <div className='flex justify-center'>
-            <a className='anchor anchor-primary'>Create an account</a>
+            <a href='/sign-up' className='anchor anchor-primary'>
+              Create an account
+            </a>
           </div>
         </form>
       </div>

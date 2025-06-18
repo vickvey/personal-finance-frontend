@@ -25,7 +25,9 @@ export default function ForgotPasswordPage() {
         </div>
 
         <div className='flex justify-center'>
-          <a className='anchor anchor-primary text-gray-2'>Back to login</a>
+          <a href='/sign-in' className='anchor anchor-primary text-gray-2'>
+            Back to login
+          </a>
         </div>
       </form>
     </div>
